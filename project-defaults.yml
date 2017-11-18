@@ -1,0 +1,16 @@
+swarm:
+  port:
+    offset: 0
+  datasources:
+    data-sources:
+      unibaveDS:
+        driver-name: h2
+        connection-url: jdbc:h2:~/Unibave/ecommerce
+#        connection-url: jdbc:h2:file:c:/Users/Unibave/ecommerce
+        user-name: sa
+        password: sa
+#    jdbc-drivers:
+#      org.postgresql:
+#        driver-class-name: org.postgresql.Driver
+#        xa-datasource-class-name: org.postgresql.xa.PGXADataSource
+#        driver-module-name: org.postgresql
